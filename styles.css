@@ -1,0 +1,42 @@
+#gameBoardDiv{
+    max-width: 310px;
+    height: 310px;;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    background-color: red;
+    border: red;
+    border-width: 5px;
+}
+
+#gameBoardDiv input[type=button]{
+    width: 100px;
+    height: 100px;
+    
+    
+    
+    font-size: 90px;
+}
+
+#buttonDiv{
+    width: 100px;
+    height: 100px;
+
+    margin: 0 5px 5px 0;
+
+    background-color: lightgray;
+
+    user-select: none; /* Standard */
+}
+
+#buttonDiv:active{
+    background-color: gray;
+}
+
+#buttonDiv p{
+    text-align: center;
+    margin: auto;
+    font-size: 5em;
+}
+
